@@ -1,10 +1,10 @@
 ﻿using Tweetinvi;
 
-namespace Console.NET_4._6._1
+namespace Console.NETCore_4._6._2
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Auth.SetUserCredentials("CONSUMER_KEY", "CONSUMER_SECRET", "ACCESS_TOKEN", "ACCESS_TOKEN_SECRET");
 

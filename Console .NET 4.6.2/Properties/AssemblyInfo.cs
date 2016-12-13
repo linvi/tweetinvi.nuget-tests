@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Console .NET 4.6.1")]
+[assembly: AssemblyTitle("Console .NET 4.6.2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Console .NET 4.6.1")]
+[assembly: AssemblyProduct("Console .NET 4.6.2")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7cbfe9cb-d67f-43e9-a6c8-8c28f944a850")]
+[assembly: Guid("1cbb1be7-ae9f-4086-8451-141e3bdfaaea")]
 
 // Version information for an assembly consists of the following four values:
 //

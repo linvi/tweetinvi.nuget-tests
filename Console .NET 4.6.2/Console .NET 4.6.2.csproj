@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CBFE9CB-D67F-43E9-A6C8-8C28F944A850}</ProjectGuid>
+    <ProjectGuid>{1CBB1BE7-AE9F-4086-8451-141E3BDFAAEA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Console.NET_4._6._1</RootNamespace>
-    <AssemblyName>Console.NET_4._6._1</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Console.NET_4._6._2</RootNamespace>
+    <AssemblyName>Console.NET_4._6._2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <NuGetPackageImportStamp>
