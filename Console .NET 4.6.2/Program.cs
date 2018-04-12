@@ -8,8 +8,8 @@ namespace Console.NET_4._6._2
         {
             Auth.SetUserCredentials("CONSUMER_KEY", "CONSUMER_SECRET", "ACCESS_TOKEN", "ACCESS_TOKEN_SECRET");
 
-            var user = User.GetAuthenticatedUser();
-
+            var user = UserAsync.GetAuthenticatedUser().Result;
+            
             System.Console.WriteLine(user);
             System.Console.ReadKey();
         }

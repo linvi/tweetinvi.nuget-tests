@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System.Threading.Tasks;
+using Android.App;
 using Android.Widget;
 using Android.OS;
 using Tweetinvi;
@@ -10,7 +11,7 @@ namespace Android_4._6._2
     {
         int count = 1;
 
-        protected override void OnCreate(Bundle bundle)
+        protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
@@ -23,7 +24,7 @@ namespace Android_4._6._2
 
             Auth.SetUserCredentials("CONSUMER_KEY", "CONSUMER_SECRET", "ACCESS_TOKEN", "ACCESS_TOKEN_SECRET");
 
-            var user = User.GetAuthenticatedUser();
+            var user = await UserAsync.GetAuthenticatedUser();
 
             button.Click += delegate { button.Text = string.Format("{0} clicked {1} times!", user, count++); };
         }

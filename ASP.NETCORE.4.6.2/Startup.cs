@@ -28,7 +28,7 @@ namespace ASP.NETCORE._4._6._2
             app.Run(async (context) =>
             {
                 Auth.SetUserCredentials("CONSUMER_KEY", "CONSUMER_SECRET", "ACCESS_TOKEN", "ACCESS_TOKEN_SECRET");
-                var user = User.GetAuthenticatedUser();
+                var user = await UserAsync.GetAuthenticatedUser();
 
                 await context.Response.WriteAsync($"Hello {user}!");
             });
